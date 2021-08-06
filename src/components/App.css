@@ -1,1 +1,86 @@
 /* Styles go here */
+:root {
+  --pink: #E59CA8
+}
+.FINav {
+  width: 100%;
+  height: 50px;
+  background-color: #234270;
+}
+
+.FIName {
+  text-shadow: 2px 2px #DE475C;
+  padding: 10px;
+  top: 10px;
+  color: var(--pink)
+}
+
+.TextMediumMod {
+  font-size: 30px;
+}
+
+.TextSmallMod {
+  font-size: 20px;
+}
+
+.InlineMod {
+  display: inline;
+}
+
+.BoldMod {
+  font-weight: bold;
+}
+
+.UserAcc {
+  float: right;
+  text-shadow: 2px 2px #DE475C;
+  padding: 10px;
+  color: var(--pink)
+}
+
+.MainBG {
+  background-color: #16315D;
+  height: 100vh;
+}
+
+.MainHeading {
+  text-shadow: 2px 2px #DE475C;
+  padding: 10px;
+  text-align: center;
+  color: var(--pink);
+  font-size: 50px;
+}
+
+.FIButton {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0px;
+  color: black;
+  width: 150px;
+  height: 30px;
+  box-shadow: 3px -3px 0px 0px black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.FIButton:hover {
+  transition: width 0.1s, height 0.1s, font-size 0.1s;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  /* border: 3px solid green; */
+}
+
+.FISmallTitles {
+  text-shadow: 2px 2px #DE475C;
+  text-align: center;
+  color: var(--pink);
+  font-size: 30px;
+}
